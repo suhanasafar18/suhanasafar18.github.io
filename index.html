@@ -1,39 +1,49 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suhana Safar</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Suhana Safar</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
 </head>
 <body>
-    <header>
-        <img src="logo.png" alt="Suhana Safar Logo" class="logo">
-        <h1>Welcome to Suhana Safar</h1>
-        <p>Your dream destinations await.</p>
-    </header>
-    <main>
-        <section>
-            <h2>About Us</h2>
-            <p>We are a passionate travel agency dedicated to making your journeys unforgettable. Explore with us!</p>
-        </section>
-        <section>
-            <h2>Popular Destinations</h2>
-            <ul>
-                <li>Manali</li>
-                <li>Goa</li>
-                <li>Kerala</li>
-                <li>Kashmir</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Contact</h2>
-            <p>Email: contact@suhanasafar.com</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Suhana Safar. All rights reserved.</p>
-    </footer>
+  <header>
+    <h1>Suhana Safar</h1>
+    <p>Your dream destinations await.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" data-aos="fade-up">
+    <h2>About Us</h2>
+    <p>We are a passionate travel agency dedicated to making your journeys unforgettable. Explore with us!</p>
+  </section>
+
+  <section id="destinations" data-aos="fade-up">
+    <h2>Popular Destinations</h2>
+    <div class="gallery">
+      <div><img src="images/manali.jpg" alt="Manali"><p>Manali</p></div>
+      <div><img src="images/goa.jpg" alt="Goa"><p>Goa</p></div>
+      <div><img src="images/kerala.jpg" alt="Kerala"><p>Kerala</p></div>
+      <div><img src="images/kashmir.jpg" alt="Kashmir"><p>Kashmir</p></div>
+    </div>
+  </section>
+
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:contact@suhanasafar.com">contact@suhanasafar.com</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Suhana Safar. All rights reserved.
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
